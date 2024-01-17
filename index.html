@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <section class="tiles-showcases">
+        <section class="tiles-showcase tiles-showcase-civil">
+        
+        </section>
+        <section class="tiles-showcase tiles-showcase-military">
+        
+        </section>                
+    </section>
+    <section class="tile-practice">
+        <div class="tile-practice-zone">
+            <p>
+                <button type="button" onclick="pickTile()">Pick a Tile</button>
+                <div class="score-zone">Score: <span class="score">0</span></div>
+            </p>            
+            <div class="tile">
+
+            </div>
+            <div class="possible-options">
+                
+            </div>
+
+        </div>
+    </section>
+</body>
+</html>
+<style>
+    .tiles-showcase{
+        display: flex;
+        justify-content: flex-start;
+        gap: 5px;
+    }
+    .tiles-showcase .tile{
+        text-align: center;
+    }
+    .tiles-showcase .tile img{
+        width: 3em;
+    }    
+</style>
